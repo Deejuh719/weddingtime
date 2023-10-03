@@ -1,0 +1,79 @@
+.mainPage {
+    background-image: url(./images/redfilmroll.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.secondPage {
+    background-image: url(./images/invitebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.center {
+    justify-content: center;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'Attic';
+    src: url('./fonts/Attic.ttf'); format('truetype')
+}
+
+@font-face {
+    font-family: 'Black Shadow';
+    src: url('./fonts/black-shadow.regular.ttf'); format('truetype')
+}
+
+@font-face {
+    font-family: 'Monopol';
+    src: url('./fonts/Monopol.ttf'); format('truetype')
+}
+
+@font-face {
+    font-family: 'Partty';
+    src: url('./fonts/partty.regular.ttf'); format('truetype')
+}
+
+.p1 {
+    font-family: 'Monopol';
+    font-size: 8em;
+    justify-content: center;
+    text-align: center;
+    color: #E6B325;
+    display: flex;
+    margin-top: 50vh;
+}
+
+.p2 {
+    font-family: 'Black Shadow';
+    font-size: 8em;
+    justify-content: center;
+    text-align: center;
+    color: #751303;
+    display: flex;
+    margin-top: 0;
+}
+
+.p3 {
+    font-family: 'Monopol';
+    font-size: 3em;
+    justify-content: center;
+    text-align: center;
+    color: #E6B325;
+    display: flex;
+    padding-bottom: 9.5rem;
+}
+
+#text{
+    color: #E6B325;
+    font-size: 8em;
+    text-align: center;
+    margin-top: 60vh;
+    font-family: 'Attic';
+}
