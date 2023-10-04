@@ -45,8 +45,7 @@
     font-size: 8em;
     justify-content: center;
     text-align: center;
-    color: #f3e0ad;
-    filter: drop-shadow(10px 10px 12px #594a21);
+    color: #f5d681;
     display: flex;
     margin-top: 70vh;
 }
@@ -66,8 +65,7 @@
     font-size: 3em;
     justify-content: center;
     text-align: center;
-    color: #f3e0ad;
-    filter: drop-shadow(10px 10px 12px #594a21);
+    color: #f5d681;
     display: flex;
     margin-bottom: 9rem;
 }
