@@ -42,7 +42,7 @@
 
 .p1 {
     font-family: 'Monopol';
-    font-size: 6.5em;
+    font-size: 7.5em;
     justify-content: center;
     text-align: center;
     color: #ffbb00;
@@ -52,10 +52,10 @@
 
 .p2 {
     font-family: 'Black Shadow';
-    font-size: 6.5em;
+    font-size: 7.5em;
     justify-content: center;
     text-align: center;
-    color: #751303;
+    color: #891b0a;
     display: flex;
 }
 
