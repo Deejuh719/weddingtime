@@ -46,7 +46,7 @@
     justify-content: center;
     text-align: center;
     color: #f3e0ad;
-    text-shadow: 2px 2px 4px #594a21;
+    filter: drop-shadow(10px 10px 12px #594a21);
     display: flex;
     margin-top: 70vh;
 }
@@ -67,7 +67,7 @@
     justify-content: center;
     text-align: center;
     color: #f3e0ad;
-    text-shadow: 5px 5px 8px #594a21;
+    filter: drop-shadow(10px 10px 12px #594a21);
     display: flex;
     margin-bottom: 9rem;
 }
