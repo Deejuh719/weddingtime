@@ -48,7 +48,7 @@
     color: #E6B325;
     display: flex;
     margin-top: 50vh;
-    text-shadow: 2px 2px 4px rgb(43, 42, 42);
+    font-weight: 300;
 }
 
 .p2 {
@@ -59,7 +59,6 @@
     color: #751303;
     display: flex;
     margin-top: 0;
-    text-shadow: 2px 2px 4px rgb(43, 42, 42);
 }
 
 .p3 {
@@ -69,8 +68,8 @@
     text-align: center;
     color: #E6B325;
     display: flex;
-    padding-bottom: 9.5rem;
-    text-shadow: 2px 2px 4px rgb(43, 42, 42);
+    margin-bottom: 9.5rem;
+    font-weight: 300;
 }
 
 #text{
