@@ -45,14 +45,14 @@
     font-size: 8em;
     justify-content: center;
     text-align: center;
-    color: #e4c368;
+    color: #ffbb00;
     display: flex;
     margin-top: 70vh;
 }
 
 .p2 {
     font-family: 'Black Shadow';
-    font-size: 8em;
+    font-size: 7.5em;
     justify-content: center;
     text-align: center;
     color: #751303;
@@ -64,9 +64,10 @@
     font-size: 3em;
     justify-content: center;
     text-align: center;
-    color: #e4c368;
+    color: #ffbb00;
     display: flex;
     margin-bottom: 9rem;
+    padding-bottom: 2rem;
 }
 
 #text{
