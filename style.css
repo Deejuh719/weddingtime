@@ -17,7 +17,7 @@
 
 .center {
     justify-content: center;
-    display: inline-block;
+    display: block;
 }
 
 @font-face {
