@@ -45,7 +45,8 @@
     font-size: 8em;
     justify-content: center;
     text-align: center;
-    color: #594a21;
+    color: #f3e0ad;
+    text-shadow: #594a21;
     display: flex;
     margin-top: 70vh;
 }
@@ -65,7 +66,8 @@
     font-size: 3em;
     justify-content: center;
     text-align: center;
-    color: #594a21;
+    color: #f3e0ad;
+    text-shadow: #594a21;
     display: flex;
     margin-bottom: 9rem;
 }
