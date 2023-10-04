@@ -56,8 +56,7 @@
     justify-content: center;
     text-align: center;
     color: #751303;
-    display: flex;
-    margin: 0;
+    display: absolute;
 }
 
 .p3 {
