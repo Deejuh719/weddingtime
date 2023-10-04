@@ -39,7 +39,7 @@
 .p1 {
     font-family: 'Monopol';
     font-size: 8em;
-    
+    justify-content: center;
     text-align: center;
     color: #ffbb00;
     display: flex;
