@@ -45,7 +45,7 @@
     font-size: 8em;
     justify-content: center;
     text-align: center;
-    color: #f5d681;
+    color: #e4c368;
     display: flex;
     margin-top: 70vh;
 }
@@ -57,7 +57,7 @@
     text-align: center;
     color: #751303;
     display: flex;
-    margin-top: 0;
+    margin: 0 0;
 }
 
 .p3 {
@@ -65,7 +65,7 @@
     font-size: 3em;
     justify-content: center;
     text-align: center;
-    color: #f5d681;
+    color: #e4c368;
     display: flex;
     margin-bottom: 9rem;
 }
