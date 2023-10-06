@@ -10,6 +10,17 @@ function typing(){
 }
 typing();
 
+var i = 0, text2;
+text2 = "Click the page! I dare ya!"
+
+function typing(){
+    if(i<text2.length){
+        document.getElementById("text2").innerHTML += text2.charAt(i);
+        i++
+        setTimeout(typing, 100);
+    }
+}
+
 document.onclick=function(){
     document.location.href="invite.html";
     alert('You Should Not Have Done That!');
