@@ -26,9 +26,11 @@ document.addEventListener('DOMContentLoaded', function(){
         p.style.display = "inline-block";
         typing(p, speedP);
     }, delay);
+
+    document.onclick=function(){
+        document.location.href="invite.html";
+        alert('You Should Not Have Done That!');
+    }
 });
 
-document.onclick=function(){
-    document.location.href="invite.html";
-    alert('You Should Not Have Done That!');
-}
+
