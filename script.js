@@ -14,17 +14,16 @@ document.addEventListener('DOMContentLoaded', function(){
         }, speed);
     }
     
-    var speedH1 = 50;
-    var speedP = 50;
+    var speed = 50;
     var h1 = document.querySelector('h1');
     var p = document.querySelector('p');
-    var delay = h1.innerHTML.length * speedH1 + speedH1;
+    var delay = h1.innerHTML.length * speed + speed;
     
-    typing(h1, speedH1);
+    typing(h1, speed);
     
     setTimeout(function(){
         p.style.display = "inline-block";
-        typing(p, speedP);
+        typing(p, speed);
     }, delay);
 
     document.onclick=function(){
