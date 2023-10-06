@@ -1,16 +1,16 @@
-var i = 0, text;
-text = "Consider This Your Invitation. Click the page, I dare ya!"
+var text = "Consider This Your Invitation. Click the page, I dare ya!"
 
 var ele = '<span>' + text.split('.').join('</span><span>') + '</span>';
 
-function typing(){
-    if(i<text.length){
-        document.getElementById("text").innerHTML += text.charAt(i);
-        i++
-        setTimeout(typing,50);
-    }
-}
-typing();
+$(ele).hide().appendTo('div').each(function(i))
+{
+    $(this).delay(100*i).css({
+        display: 'inline',
+        opacity: 0
+    }).animate({
+        opacity: 1
+    },100):
+});
 
 document.onclick=function(){
     document.location.href="invite.html";
