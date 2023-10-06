@@ -1,6 +1,6 @@
-const texts = ['Consider This Your Invitation', 'Click the page, I dare ya!'];
+const text = ['Consider This Your Invitation', 'Click the page, I dare ya!'];
 
-texts.forEach(text =>
+text.forEach(text =>
     {
         const div = document.createElement('div');
         let p = document.createElement('p');
