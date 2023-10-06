@@ -1,5 +1,7 @@
 var i = 0, text;
-text = "Consider This Your Invitation"
+text = "Consider This Your Invitation. Click the page, I dare ya!"
+
+var ele = '<span>' + text.split('.').join('</span><span>') + '</span>';
 
 function typing(){
     if(i<text.length){
@@ -9,17 +11,6 @@ function typing(){
     }
 }
 typing();
-
-var a = 0, text2;
-text2 = "Click the page! I dare ya!"
-
-function typing2(){
-    if(a<text2.length){
-        document.getElementById("text2").innerHTML += text2.charAt(i);
-        i++
-        setTimeout(typing2, 100);
-    }
-}
 
 document.onclick=function(){
     document.location.href="invite.html";
