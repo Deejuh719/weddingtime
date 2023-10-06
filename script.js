@@ -1,8 +1,6 @@
-var text = `Consider This Your Invitation. 
+var text = "Consider This Your Invitation. Click the page, I dare ya!"
 
-Click the page, I dare ya!`
-
-var ele = '<span>' + text.split('.').join('</span><span>') + '</span>';
+var ele = '<span>' + text.split('').join('</span><span>') + '</span>';
 
 $(ele).hide().appendTo('div').each(function(i))
 {
