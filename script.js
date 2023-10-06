@@ -1,31 +1,29 @@
-const text = ['Consider This Your Invitation', 'Click the page, I dare ya!'];
+function typing(element, speed) {
+    var text = element.innerHTML;
+    element.innerHTML = "";
 
-text.forEach(text =>
-    {
-        const div = document.createElement('div');
-        let p = document.createElement('p');
-        div.appendChild(p);
-        document.body.appendChild(div);
-    });
-
-function typing(p, index, text) {
-    p.innerHTML = text.substr(0, index);
-    if(index<text.length)
-    {
-        setTimeout(typing, speed, p, index+1, text);
-    }
+    var i = 0;
+    var timer = setInterval(function() {
+        if(i < text.length) {
+            element.append(text.charAt(i));
+            i++;
+        } else {
+            clearInterval(timer);
+        }
+    }, speed);
 }
-/**var ele = '<span>' + text.split('').join('</span><span>') + '</span>';
 
-$(ele).hide().appendTo('div').each(function(i))
-{
-    $(this).delay(100*i).css({
-        display: 'inline',
-        opacity: 0
-    }).animate({
-        opacity: 1
-    },100):
-});*/
+var speed = 50
+var h1 = document.querySelector('h1');
+var p = document.querySelector('p');
+var delay = h1.innerHTML.length * speed + speed;
+
+typing(h1, speed);
+
+setTimeout(function(){
+    p.style.display = "inline-block";
+    typing(p, speed);
+}, delay);
 
 document.onclick=function(){
     document.location.href="invite.html";
