@@ -13,7 +13,7 @@ function typing(element, speed) {
     }, speed);
 }
 
-var speed = 50
+var speed = 50;
 var h1 = document.querySelector('h1');
 var p = document.querySelector('p');
 var delay = h1.innerHTML.length * speed + speed;
