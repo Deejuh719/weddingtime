@@ -13,16 +13,17 @@ function typing(element, speed) {
     }, speed);
 }
 
-var speed = 50;
+var speedH1 = 50;
+var speedP = 50;
 var h1 = document.querySelector('h1');
 var p = document.querySelector('p');
-var delay = h1.innerHTML.length * speed + speed;
+var delay = h1.innerHTML.length * speedH1 + speedH1;
 
 typing(h1, speed);
 
 setTimeout(function(){
     p.style.display = "inline-block";
-    typing(p, speed);
+    typing(p, speedP);
 }, delay);
 
 document.onclick=function(){
