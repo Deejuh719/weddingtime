@@ -79,9 +79,5 @@ p{
     font-family: 'Attic';
     font-size: 3em;
     text-align: center;
-    animation: type 4s steps(60, end);
+    margin-top: 50vh;
 }
-
-@keyframes type{ 
-    from { width: 0; } 
-  }
