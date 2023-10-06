@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var p = document.querySelector('p');
     var delay = h1.innerHTML.length * speedH1 + speedH1;
     
-    typing(h1, speed);
+    typing(h1, speedH1);
     
     setTimeout(function(){
         p.style.display = "inline-block";
