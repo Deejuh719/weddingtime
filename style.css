@@ -66,7 +66,7 @@
     padding-bottom: 2rem;
 }
 
-#mainThing{
+h1{
     color: #E6B325;
     font-size: 8em;
     text-align: center;
@@ -74,17 +74,9 @@
     font-family: 'Attic';
 }
 
-#smallP{
+p{
     color: #E6B325;
     font-family: 'Attic';
     font-size: 3em;
     text-align: center;
-}
-
-#text{
-    color: #E6B325;
-    font-size: 8em;
-    text-align: center;
-    margin-top: 60vh;
-    font-family: 'Attic';
 }
