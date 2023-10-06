@@ -13,11 +13,11 @@ typing();
 var a = 0, text2;
 text2 = "Click the page! I dare ya!"
 
-function typing(){
+function typing2(){
     if(a<text2.length){
         document.getElementById("text2").innerHTML += text2.charAt(i);
         i++
-        setTimeout(typing, 100);
+        setTimeout(typing2, 100);
     }
 }
 
