@@ -1,4 +1,6 @@
-var text = "Consider This Your Invitation. Click the page, I dare ya!"
+var text = `Consider This Your Invitation. 
+
+Click the page, I dare ya!`
 
 var ele = '<span>' + text.split('.').join('</span><span>') + '</span>';
 
