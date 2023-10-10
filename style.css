@@ -81,3 +81,8 @@ p{
     text-align: center;
     justify-content: center;
 }
+
+#secondLine {
+    display: none;
+}
+

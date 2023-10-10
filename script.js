@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', function(){
     var speedH1 = 100;
     var speedP = 100;
     var h1 = document.querySelector('h1');
-    var p = document.querySelector('p');
+    var p = document.getElementById('secondLine')
     var delay = h1.innerHTML.length * speedH1 + speedH1;
     
     typing(h1, speedH1);
     
     setTimeout(function(){
-        p.style.display = "inline-block";
+        p.style.display = "flex";
         typing(p, speedP);
     }, delay);
 
@@ -32,5 +32,4 @@ document.addEventListener('DOMContentLoaded', function(){
         alert('You Should Not Have Done That!');
     }
 });
-
 
